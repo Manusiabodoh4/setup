@@ -22,6 +22,8 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
+sudo service docker start
+
 sudo docker pull node:18.12.1-slim
 
 sudo docker pull php:5.6-zts-alpine
